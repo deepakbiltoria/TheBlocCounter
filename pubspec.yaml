@@ -1,3 +1,4 @@
+
 name: bloc_architecture_app
 description: A Flutetr Bloc Architecture project.
 
@@ -6,15 +7,22 @@ publish_to: 'none'
 version: 1.0.0+1
 
 environment:
-  sdk: '>=2.13.0 <3.0.0'
+  sdk: '>=2.10.0 <3.0.0'
 
 dependencies:
+
+  permission_handler: ^8.2.5
   flutter:
     sdk: flutter
   bloc: ^7.0.0
   cupertino_icons: ^1.0.0
   flutter_bloc: ^7.0.0
+  flare_flutter: ^2.0.6
   hydrated_bloc: ^7.0.0
+  path_provider: ^2.0.7
+  simple_animations: ^2.5.1
+
+
 
 dev_dependencies:
   flutter_test:
@@ -22,3 +30,5 @@ dev_dependencies:
 
 flutter:
   uses-material-design: true
+  assets:
+    - assets/flare/
